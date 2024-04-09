@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.pokemon-listing-container {
+  border: 1px solid black;
+  padding: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  width: 120px;
+  margin-right: 16px;
+}
+
+.pokemon-details-main-container {
+  padding: 24px;
+  display: flex;
+}
+
+.pokemon-details-container {
+  margin: auto;
+  text-align: center;
+  padding: 24px;
+}
+
+.pokemon-img-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type-tag {
+  border-radius: 4px;
+  padding: 4px;
+  margin-right: 4px;
+}
